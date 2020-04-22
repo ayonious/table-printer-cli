@@ -48,7 +48,7 @@ ctp '[{ "id":3, "text":"like" }, {"id":4, "text":"tea"}]'
 
 Output:
 
-![Screenshot](https://cdn.jsdelivr.net/gh/ayonious/cli-table-printer@master/static-resources/quick-print.png)
+![Screenshot](https://cdn.jsdelivr.net/gh/ayonious/cli-table-printer@master/static-resources/quick-print.v2.png)
 
 ## License
 
