@@ -7,6 +7,9 @@
   "bin": {
     "ctp": "dist/index.js"
   },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "setup": "npm install",
     "build": "tsc",
