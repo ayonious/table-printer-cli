@@ -10,5 +10,5 @@
     "strict": true,
     "types": ["jest", "node"]
   },
-  "include": ["index.ts"]
+  "include": ["src/**/*", "index.ts"]
 }
