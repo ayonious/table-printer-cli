@@ -5,15 +5,15 @@ node_js:
 before_script:
   - npm run setup
   - npm run build
+after_success:
+  - bash <(curl -s https://codecov.io/bash) -e TRAVIS_NODE_VERSION
 deploy:
   provider: npm
   edge: true
   email: jaissatai6@gmail.com
   skip_cleanup: true
   api_key:
-    secure: r7ehMC001sL+KG3Fs0kqQHhZxvmn3huumpcgbLnkv9gscT/5Dt221UsZdZgMFpTnzW+HgVUcvg1Xzte1L2T0WS4m/1cDzD+Bd80lToaTbdTIotFoffT1kN1yoWuoYN/gkZtup7XpyR2RD2I/kLybhn0D6XvEPCwN2gaoVPKQp5kafe79zTcpoSaDJysmGDo5T1S5s8+pMFSOnuwf8dLGPkDa+/L21kraQCEM5yV7aWyZQnzBYBwLg5UCbTQhqS60c0qaDMdODozNvFvPbCZeJUVd7D9EaAo5dBDd2WQXtXNCRGSCsCQtcDgmieU1CHNR0FSMcdMcJhJDkketJKZoGmjIy1yv7ZuTNSzvsNnPh+Bx8yQNlrCmg/mBCnh3rLXvOxLSe1VhnTWA+/1kmMx96I++gkFWNucEsLL1pemDaPzn2E+PlMHpqR5mYCHK92S0trNq/0KjD7qlG/xQvOBURJ5WXA17/yZPXlKEjPA2MN5W3icWCORK8q+2OSCqrm0J2mPtiVvuNs+PRcvRiOLP6n6JWWwu9bjIrIkAX269N7ubmVl6yQrPiN+QrkApWyfWioBfg7V1E08LBElcVtdAG2DMCS80YR3WFxBNidgxs7ENtnjXIFd7EgxQ0WZ1mfbps/KdyslLnWhWGdTWK+ioP4/RJHcl0Ei+moRQcsHQkxM=
+    secure: oFqzNReQY6INrtLGhwX5eXiS6V8Vjog54JTctnEdNA+NH0c+Kk+kjlrtZADoWuiF2ku8FT8KfgFLafNi6kgCTBOP5BDkXji/b2QIrBontSaYtS/eHFa4MXq2sCbNmRgIL2vhv/ltJwjAaVjewhKZvP4qawp1X6LGzt+Ck5Q1ta4qzCnwgL/m3+kplpZK6zPtq/DZ2a/TCR1Lugy/vHeqN8fpbXLmPYTTPbGND9X3DCq5QCaL+pWMpM/rRCqLJ5FaqEp9fCqPhrmgJRocqTovJd/CutUDtrWyduZEJmXUa5n0+F4TfAssq4yLnrNNVpx4HRCI9qnkFOLituPq65u0+sQXAXwxQY6bAzEQF2FtPQ8u+I9ndtGALeQ/iUQCyLx3AO0bKGkhQbPoUpLbMn7xJ+YJjQCDMVTyq1VzMgh7tCtJTNdvqP022T9gG9edi/+05qKON5l6z+ogKj2b/d9u4z/LyJEqyqIQLop0GNjPlkjMTY6giDJr4m5owTlkBp+ie0FfnVZFuvWR+uxUh9+Gz2ICgHRF/hiMwQKhtYVgE/Z/Q5mgskGy1yx7EG/CHd8oDyZMcBFWNmB9m0EbUBRhx7XI5oXT5/O2Uan6XrFMMoWl1v94eaf94EXC5UAovmkURFrDqEAbhk8jr5sJVFMINPT3xlHqadoT+kvjAaAcewo=
   on:
     branch: master
     node_js: '--lts'
-after_success:
-  - bash <(curl -s https://codecov.io/bash) -e TRAVIS_NODE_VERSION
