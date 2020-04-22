@@ -43,7 +43,7 @@ npm install cli-table-printer -g
 Try this on your terminal.
 
 ```bash
-ctc '[{ "index":3, "text":"I would like", "value":200 }, { "index":4, "text":"tea please",  "value":300  } ]'
+ctp '[{ "id":3, "text":"like" }, {"id":4, "text":"tea"}]'
 ```
 
 Output:
