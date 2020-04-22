@@ -1,0 +1,44 @@
+{
+  "name": "cli-table-printer",
+  "version": "0.0.1",
+  "description": "consolte table printer cli",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "ctp": "dist/index.js"
+  },
+  "scripts": {
+    "setup": "npm install",
+    "build": "tsc",
+    "format": "prettier --write \"**/*.{json,md,ts,tsx,yml,js,jsx}\"",
+    "test": "jest --config jestconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayonious/console-table-cli.git"
+  },
+  "keywords": [
+    "console-table",
+    "console-log",
+    "print-table"
+  ],
+  "author": "Nahiyan Kamal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ayonious/console-table-cli/issues"
+  },
+  "homepage": "https://github.com/ayonious/console-table-cli#readme",
+  "dependencies": {
+    "console-table-printer": "^1.4.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.2.1",
+    "@types/node": "^13.13.2",
+    "husky": "^4.2.5",
+    "jest": "^25.4.0",
+    "prettier": "^2.0.5",
+    "pretty-quick": "^2.0.1",
+    "ts-jest": "^25.4.0",
+    "typescript": "^3.8.3"
+  }
+}
