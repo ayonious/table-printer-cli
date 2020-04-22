@@ -30,7 +30,7 @@
 
 ## Synopsis
 
-Printing Simple Table on your bash terminal. Its useful when you want to present some tables on console.
+Printing Simple Table on your bash terminal. Its useful when you want to present some tables on console. There is a library that you can use similar way in nodejs/typescript Projects. [console-table-printer](https://www.npmjs.com/package/console-table-printer)
 
 ## Installation
 
@@ -49,8 +49,6 @@ ctc '[{ "index":3, "text":"I would like", "value":200 }, { "index":4, "text":"te
 Output:
 
 ![Screenshot](https://cdn.jsdelivr.net/gh/ayonious/cli-table-printer@master/static-resources/quick-print.png)
-
-There is a library that you can use similar way in nodejs/typescript Projects. [HERE](https://www.npmjs.com/package/console-table-printer)
 
 ## License
 
