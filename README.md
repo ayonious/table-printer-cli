@@ -40,6 +40,8 @@ npm install cli-table-printer -g
 
 ## Basic Example
 
+Try this on your terminal.
+
 ```bash
 ctc '[{ "index":3, "text":"I would like", "value":200 }, { "index":4, "text":"tea please",  "value":300  } ]'
 ```
@@ -47,6 +49,8 @@ ctc '[{ "index":3, "text":"I would like", "value":200 }, { "index":4, "text":"te
 Output:
 
 ![Screenshot](https://cdn.jsdelivr.net/gh/ayonious/cli-table-printer@master/static-resources/quick-print.png)
+
+There is a library that you can use similar way in nodejs/typescript Projects. [HERE](https://www.npmjs.com/package/console-table-printer)
 
 ## License
 
