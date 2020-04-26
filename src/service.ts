@@ -1,10 +1,10 @@
 import { printTable } from 'console-table-printer';
+
 import verifyInput from './inputVerifier';
-import banner from './banner';
 
 const printTableFromInp = (inp: string): void | string => {
   if (!verifyInput(inp)) {
-    console.log(banner);
+    console.log(`not a valid json ${inp}`);
     return;
   }
 

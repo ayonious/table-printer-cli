@@ -1,7 +1,7 @@
 import service from '../src/service';
 
 describe('Testing Error inputs', () => {
-  it(`input: valid`, function() {
+  it(`input: valid`, function () {
     service([
       '1',
       '1',
@@ -9,7 +9,7 @@ describe('Testing Error inputs', () => {
     ]);
   });
 
-  it(`input: invalid: see banner`, function() {
+  it(`input: invalid: see banner`, function () {
     service([
       '1',
       '1',

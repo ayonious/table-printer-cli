@@ -1,13 +1,13 @@
 import inputVerifier from '../src/inputVerifier';
 
 describe('Testing Error inputs', () => {
-  it(`number of arguments: invalid`, function() {
+  it(`number of arguments: invalid`, function () {
     expect(inputVerifier(['1', '1', '1', '1'])).toBe(false);
     expect(inputVerifier(['1', '1'])).toBe(false);
     expect(inputVerifier(['1'])).toBe(false);
   });
 
-  it(`JSON input: invalid`, function() {
+  it(`JSON input: invalid`, function () {
     expect(
       inputVerifier([
         '1',
@@ -17,7 +17,7 @@ describe('Testing Error inputs', () => {
     ).toBe(false);
   });
 
-  it(`JSON input: not array`, function() {
+  it(`JSON input: not array`, function () {
     expect(
       inputVerifier([
         '1',
@@ -27,7 +27,7 @@ describe('Testing Error inputs', () => {
     ).toBe(false);
   });
 
-  it(`input: valid`, function() {
+  it(`input: valid`, function () {
     expect(
       inputVerifier([
         '1',
