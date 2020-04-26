@@ -12,13 +12,8 @@ const isValidJson = (str: string): Boolean => {
   }
 };
 
-const verifyInput = (args: string[]): Boolean => {
-  if (args.length !== 3) {
-    console.log('only one param allowed');
-    return false;
-  }
-
-  if (!isValidJson(args[2])) {
+export const verifyInput = (inp: string): Boolean => {
+  if (!isValidJson(inp)) {
     return false;
   }
   return true;

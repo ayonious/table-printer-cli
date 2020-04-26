@@ -2,15 +2,14 @@ import { printTable } from 'console-table-printer';
 import verifyInput from './inputVerifier';
 import banner from './banner';
 
-const printTableFromArgs = (args: string[]): void | string => {
-  console.log('args', args);
-  if (!verifyInput(args)) {
+const printTableFromInp = (inp: string): void | string => {
+  if (!verifyInput(inp)) {
     console.log(banner);
     return;
   }
 
-  const jsonInp = JSON.parse(args[2]);
+  const jsonInp = JSON.parse(inp);
   printTable(jsonInp);
 };
 
-export default printTableFromArgs;
+export default printTableFromInp;
