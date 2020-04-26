@@ -1,7 +1,7 @@
 {
   "name": "table-printer-cli",
-  "version": "0.0.10",
-  "description": "consolte table printer cli",
+  "version": "0.0.11",
+  "description": "console table printer cli. Print table on bash terminal",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "bin": {
@@ -36,7 +36,7 @@
   },
   "devDependencies": {
     "@types/jest": "^25.2.1",
-    "@types/node": "^13.13.3",
+    "@types/node": "^13.13.4",
     "husky": "^4.2.5",
     "jest": "^25.4.0",
     "prettier": "^2.0.5",
