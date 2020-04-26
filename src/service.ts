@@ -3,6 +3,7 @@ import verifyInput from './inputVerifier';
 import banner from './banner';
 
 const printTableFromArgs = (args: string[]): void | string => {
+  console.log('args', args);
   if (!verifyInput(args)) {
     console.log(banner);
     return;

@@ -32,6 +32,7 @@
   },
   "homepage": "https://github.com/ayonious/table-printer-cli#readme",
   "dependencies": {
+    "commander": "^5.1.0",
     "console-table-printer": "^1.4.3"
   },
   "devDependencies": {
