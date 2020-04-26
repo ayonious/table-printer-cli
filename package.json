@@ -1,6 +1,6 @@
 {
-  "name": "cli-table-printer",
-  "version": "0.0.9",
+  "name": "table-printer-cli",
+  "version": "0.0.10",
   "description": "consolte table printer cli",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ayonious/cli-table-printer.git"
+    "url": "git+https://github.com/ayonious/table-printer-cli.git"
   },
   "keywords": [
     "console-table",
@@ -28,9 +28,9 @@
   "author": "Nahiyan Kamal",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ayonious/cli-table-printer/issues"
+    "url": "https://github.com/ayonious/table-printer-cli/issues"
   },
-  "homepage": "https://github.com/ayonious/cli-table-printer#readme",
+  "homepage": "https://github.com/ayonious/table-printer-cli#readme",
   "dependencies": {
     "console-table-printer": "^1.4.3"
   },

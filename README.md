@@ -1,25 +1,25 @@
-<h1 align="center">cli-table-printer</h1>
+<h1 align="center">table-printer-cli</h1>
 <h3 align="center">📟🍭Printing Pretty Tables on your terminal</h3>
 <p align="center">
-  <a href="https://travis-ci.org/ayonious/cli-table-printer">
-    <img alt="Build Status" src="https://travis-ci.org/ayonious/cli-table-printer.svg?branch=master">
+  <a href="https://travis-ci.org/ayonious/table-printer-cli">
+    <img alt="Build Status" src="https://travis-ci.org/ayonious/table-printer-cli.svg?branch=master">
   </a>
-  <a href="https://codecov.io/gh/ayonious/cli-table-printer">
-    <img alt="codecov" src="https://codecov.io/gh/ayonious/cli-table-printer/branch/master/graph/badge.svg">
+  <a href="https://codecov.io/gh/ayonious/table-printer-cli">
+    <img alt="codecov" src="https://codecov.io/gh/ayonious/table-printer-cli/branch/master/graph/badge.svg">
   </a>
-  <a href="https://badge.fury.io/js/cli-table-printer">
-    <img alt="npm version" src="https://badge.fury.io/js/cli-table-printer.svg">
+  <a href="https://badge.fury.io/js/table-printer-cli">
+    <img alt="npm version" src="https://badge.fury.io/js/table-printer-cli.svg">
   </a>
-  <a href="https://packagephobia.now.sh/result?p=cli-table-printer">
-    <img alt="install size" src="https://packagephobia.now.sh/badge?p=cli-table-printer@latest">
+  <a href="https://packagephobia.now.sh/result?p=table-printer-cli">
+    <img alt="install size" src="https://packagephobia.now.sh/badge?p=table-printer-cli@latest">
   </a>
 </p>
 <p align="center">
-  <a href="https://david-dm.org/ayonious/cli-table-printer">
-    <img alt="dependencies Status" src="https://david-dm.org/ayonious/cli-table-printer/status.svg">
+  <a href="https://david-dm.org/ayonious/table-printer-cli">
+    <img alt="dependencies Status" src="https://david-dm.org/ayonious/table-printer-cli/status.svg">
   </a>
-  <a href="https://david-dm.org/ayonious/cli-table-printer?type=dev">
-    <img alt="devDependencies Status" src="https://david-dm.org/ayonious/cli-table-printer/dev-status.svg">
+  <a href="https://david-dm.org/ayonious/table-printer-cli?type=dev">
+    <img alt="devDependencies Status" src="https://david-dm.org/ayonious/table-printer-cli/dev-status.svg">
   </a>
 </p>
 <p align="center">
@@ -35,7 +35,7 @@ Printing Simple Table on your bash terminal. Its useful when you want to present
 ## Installation
 
 ```bash
-npm install cli-table-printer -g
+npm install table-printer-cli -g
 ```
 
 ## Basic Example
@@ -48,8 +48,8 @@ ctp '[{ "id":3, "text":"like" }, {"id":4, "text":"tea"}]'
 
 Output:
 
-![Screenshot](https://cdn.jsdelivr.net/gh/ayonious/cli-table-printer@master/static-resources/quick-print.v3.png)
+![Screenshot](https://cdn.jsdelivr.net/gh/ayonious/table-printer-cli@master/static-resources/quick-print.v3.png)
 
 ## License
 
-[MIT](https://github.com/ayonious/cli-table-printer/blob/master/LICENSE)
+[MIT](https://github.com/ayonious/table-printer-cli/blob/master/LICENSE)
