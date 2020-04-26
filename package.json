@@ -1,6 +1,6 @@
 {
   "name": "cli-table-printer",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "consolte table printer cli",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -36,7 +36,7 @@
   },
   "devDependencies": {
     "@types/jest": "^25.2.1",
-    "@types/node": "^13.13.2",
+    "@types/node": "^13.13.3",
     "husky": "^4.2.5",
     "jest": "^25.4.0",
     "prettier": "^2.0.5",
