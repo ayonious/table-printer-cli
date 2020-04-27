@@ -4,7 +4,7 @@ import verifyInput from './inputVerifier';
 
 const printTableFromInp = (inp: string): void | string => {
   if (!verifyInput(inp)) {
-    console.log(`not a valid json ${inp}`);
+    console.log(`not a valid input ${inp}`);
     return;
   }
 

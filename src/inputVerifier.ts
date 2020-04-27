@@ -2,7 +2,7 @@ const isValidJson = (str: string): Boolean => {
   try {
     const jsonObj = JSON.parse(str);
     if (!Array.isArray(jsonObj)) {
-      console.log('c');
+      console.log('input Not an array');
       return false;
     }
     return true;
