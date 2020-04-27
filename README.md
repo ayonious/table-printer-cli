@@ -56,6 +56,17 @@ You can also pipe the input from stdin
 echo '[{ "id":3, "text":"like" }, {"id":4, "text":"tea"}]' | ctp -s
 ```
 
+## Detailed usage
+
+```text
+Usage: ctp [options]
+
+Options:
+  -i, --input <value>  input string
+  -s, --stdin          read input from stdin
+  -h, --help           display help for command
+```
+
 ## License
 
 [MIT](https://github.com/ayonious/table-printer-cli/blob/master/LICENSE)
