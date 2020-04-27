@@ -14,4 +14,6 @@ if (program.input) {
   printTableFromInp(program.input);
 } else if (program.stdin) {
   printTableFromInp(fs.readFileSync(0).toString());
+} else {
+  console.log('Error: Cant detect input option');
 }
