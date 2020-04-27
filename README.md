@@ -43,12 +43,29 @@ npm install table-printer-cli -g
 Try this on your terminal.
 
 ```bash
-ctp '[{ "id":3, "text":"like" }, {"id":4, "text":"tea"}]'
+ctp -i '[{ "id":3, "text":"like" }, {"id":4, "text":"tea"}]'
 ```
 
 Output:
 
 ![Screenshot](https://cdn.jsdelivr.net/gh/ayonious/table-printer-cli@master/static-resources/quick-print.v3.png)
+
+You can also pipe the input from stdin
+
+```bash
+echo '[{ "id":3, "text":"like" }, {"id":4, "text":"tea"}]' | ctp -s
+```
+
+## Detailed usage
+
+```text
+Usage: ctp [options]
+
+Options:
+  -i, --input <value>  input string
+  -s, --stdin          read input from stdin
+  -h, --help           display help for command
+```
 
 ## License
 

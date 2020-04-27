@@ -2,7 +2,7 @@ const isValidJson = (str: string): Boolean => {
   try {
     const jsonObj = JSON.parse(str);
     if (!Array.isArray(jsonObj)) {
-      console.log('c');
+      console.log('input Not an array');
       return false;
     }
     return true;
@@ -12,13 +12,8 @@ const isValidJson = (str: string): Boolean => {
   }
 };
 
-const verifyInput = (args: string[]): Boolean => {
-  if (args.length !== 3) {
-    console.log('only one param allowed');
-    return false;
-  }
-
-  if (!isValidJson(args[2])) {
+export const verifyInput = (inp: string): Boolean => {
+  if (!isValidJson(inp)) {
     return false;
   }
   return true;

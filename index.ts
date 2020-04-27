@@ -1,5 +1,19 @@
 #!/usr/bin/env node
 
-import service from './src/service';
+import printTableFromInp from './src/service';
+import { program } from 'commander';
+import * as fs from 'fs';
 
-service(process.argv);
+program
+  .option('-i, --input <value>', 'input string')
+  .option('-s, --stdin', 'read input from stdin')
+  .parse(process.argv);
+
+if (program.input) {
+  console.log('program.input', program.input);
+  printTableFromInp(program.input);
+} else if (program.stdin) {
+  printTableFromInp(fs.readFileSync(0).toString());
+} else {
+  console.log('Error: Cant detect input option');
+}
