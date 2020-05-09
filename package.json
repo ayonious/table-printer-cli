@@ -23,7 +23,8 @@
   "keywords": [
     "console-table",
     "console-log",
-    "print-table"
+    "print-table",
+    "cli"
   ],
   "author": "Nahiyan Kamal",
   "license": "MIT",

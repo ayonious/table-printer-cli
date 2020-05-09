@@ -21,6 +21,9 @@
   <a href="https://david-dm.org/ayonious/table-printer-cli?type=dev">
     <img alt="devDependencies Status" src="https://david-dm.org/ayonious/table-printer-cli/dev-status.svg">
   </a>
+  <a href="https://app.fossa.com/projects/git%2Bgithub.com%2Fayonious%2Ftable-printer-cli?ref=badge_shield" alt="FOSSA Status">
+    <img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2Fayonious%2Ftable-printer-cli.svg?type=shield"/>
+  </a>
 </p>
 <p align="center">
   <a href="https://github.com/prettier/prettier">
