@@ -1,6 +1,6 @@
 {
   "name": "table-printer-cli",
-  "version": "1.0.20",
+  "version": "1.0.21",
   "description": "console table printer cli. Print table on bash terminal",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -23,7 +23,8 @@
   "keywords": [
     "console-table",
     "console-log",
-    "print-table"
+    "print-table",
+    "cli"
   ],
   "author": "Nahiyan Kamal",
   "license": "MIT",
