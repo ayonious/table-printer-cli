@@ -7,6 +7,7 @@
   <a href="https://codecov.io/gh/ayonious/table-printer-cli">
     <img alt="codecov" src="https://codecov.io/gh/ayonious/table-printer-cli/branch/master/graph/badge.svg">
   </a>
+<a href="https://app.fossa.io/projects/git%2Bgithub.com%2Fayonious%2Ftable-printer-cli?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.io/api/projects/git%2Bgithub.com%2Fayonious%2Ftable-printer-cli.svg?type=shield"/></a>
   <a href="https://badge.fury.io/js/table-printer-cli">
     <img alt="npm version" src="https://badge.fury.io/js/table-printer-cli.svg">
   </a>
@@ -70,3 +71,6 @@ Options:
 ## License
 
 [MIT](https://github.com/ayonious/table-printer-cli/blob/master/LICENSE)
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fayonious%2Ftable-printer-cli.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fayonious%2Ftable-printer-cli?ref=badge_large)
