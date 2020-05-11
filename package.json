@@ -1,6 +1,6 @@
 {
   "name": "table-printer-cli",
-  "version": "1.0.22",
+  "version": "1.0.23",
   "description": "console table printer cli. Print table on bash terminal",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
