@@ -79,3 +79,4 @@ index.ts
 .huskyrc.json
 .prettierrc
 .prettierignore
+.eslintrc.json
