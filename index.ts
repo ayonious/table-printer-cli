@@ -1,8 +1,8 @@
 #!/usr/bin/env node
-
-import printTableFromInp from './src/service';
 import { program } from 'commander';
 import * as fs from 'fs';
+
+import printTableFromInp from './src/service';
 
 program
   .option('-i, --input <value>', 'input string')
