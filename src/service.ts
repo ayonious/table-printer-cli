@@ -12,6 +12,4 @@ const printTableFromInp = (inp: string): void | string => {
   printTable(jsonInp);
 };
 
-
-
 export default printTableFromInp;

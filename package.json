@@ -13,7 +13,7 @@
   "scripts": {
     "setup": "npm install",
     "build": "tsc",
-    "lint": "eslint --ext=json,js,ts .",
+    "lint": "eslint --ext=js,ts .",
     "format": "prettier --write \"**/*.{json,md,ts,tsx,yml,js,jsx}\"",
     "test": "jest --config jestconfig.json"
   },
