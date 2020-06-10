@@ -1,6 +1,6 @@
 {
   "name": "table-printer-cli",
-  "version": "1.0.62",
+  "version": "1.0.63",
   "description": "console table printer cli. Print table on bash terminal",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -35,7 +35,7 @@
   "homepage": "https://github.com/ayonious/table-printer-cli#readme",
   "dependencies": {
     "commander": "^5.1.0",
-    "console-table-printer": "^1.4.36"
+    "console-table-printer": "^1.4.37"
   },
   "devDependencies": {
     "@types/jest": "^26.0.0",
