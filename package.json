@@ -1,6 +1,6 @@
 {
   "name": "table-printer-cli",
-  "version": "1.0.76",
+  "version": "1.0.77",
   "description": "console table printer cli. Print table on bash terminal",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -38,7 +38,7 @@
     "console-table-printer": "^1.5.7"
   },
   "devDependencies": {
-    "@types/jest": "^26.0.0",
+    "@types/jest": "^26.0.2",
     "@types/node": "^13.13.5",
     "@typescript-eslint/eslint-plugin": "^3.4.0",
     "@typescript-eslint/parser": "^3.4.0",
