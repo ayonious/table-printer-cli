@@ -1,6 +1,6 @@
 {
   "name": "table-printer-cli",
-  "version": "1.0.141",
+  "version": "1.0.142",
   "description": "console table printer cli. Print table on bash terminal",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -46,7 +46,7 @@
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-plugin-import": "^2.22.0",
     "husky": "^4.2.5",
-    "jest": "^26.4.0",
+    "jest": "^26.4.1",
     "prettier": "^2.0.5",
     "pretty-quick": "^2.0.1",
     "ts-jest": "^26.2.0",
