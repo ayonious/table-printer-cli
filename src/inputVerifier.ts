@@ -2,21 +2,16 @@ const isValidJson = (str: string): Boolean => {
   try {
     const jsonObj = JSON.parse(str);
     if (!Array.isArray(jsonObj)) {
-      console.log('input Not an array');
+      console.error('"input" is not an array');
       return false;
     }
     return true;
   } catch (err) {
-    console.log('Invalid json input');
+    console.log('Invalid JSON input');
     return false;
   }
 };
 
 export const verifyInput = (inp: string): Boolean => {
-  if (!isValidJson(inp)) {
-    return false;
-  }
-  return true;
+  return isValisJson(inp)
 };
-
-export default verifyInput;
