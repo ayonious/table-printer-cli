@@ -15,19 +15,14 @@
   </a>
 </p>
 <p align="center">
-  <a href="https://david-dm.org/ayonious/table-printer-cli">
-    <img alt="dependencies Status" src="https://david-dm.org/ayonious/table-printer-cli/status.svg">
-  </a>
-  <a href="https://david-dm.org/ayonious/table-printer-cli?type=dev">
-    <img alt="devDependencies Status" src="https://david-dm.org/ayonious/table-printer-cli/dev-status.svg">
+  <a href="https://github.com/prettier/prettier">
+    <img alt="code style: prettier" src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=plastic">
   </a>
   <a href="https://app.fossa.com/projects/git%2Bgithub.com%2Fayonious%2Ftable-printer-cli?ref=badge_shield" alt="FOSSA Status">
     <img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2Fayonious%2Ftable-printer-cli.svg?type=shield"/>
   </a>
-</p>
-<p align="center">
-  <a href="https://github.com/prettier/prettier">
-    <img alt="code style: prettier" src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=plastic">
+  <a href="https://github.com/semantic-release/semantic-release">
+    <img alt="semantic-release" src="https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg">
   </a>
 </p>
 
