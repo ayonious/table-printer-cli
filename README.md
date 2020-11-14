@@ -1,8 +1,8 @@
 <h1 align="center">table-printer-cli</h1>
 <h3 align="center">📟🍭Printing Pretty Tables on your terminal</h3>
 <p align="center">
-  <a href="https://travis-ci.org/ayonious/table-printer-cli">
-    <img alt="Build Status" src="https://travis-ci.org/ayonious/table-printer-cli.svg?branch=master">
+  <a href="https://travis-ci.com/ayonious/table-printer-cli">
+    <img alt="Build Status" src="https://travis-ci.com/ayonious/table-printer-cli.svg?branch=master">
   </a>
   <a href="https://codecov.io/gh/ayonious/table-printer-cli">
     <img alt="codecov" src="https://codecov.io/gh/ayonious/table-printer-cli/branch/master/graph/badge.svg">
