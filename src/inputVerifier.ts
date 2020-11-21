@@ -13,5 +13,5 @@ const isValidJson = (str: string): Boolean => {
 };
 
 export const verifyInput = (inp: string): Boolean => {
-  return isValisJson(inp)
+  return isValidJson(inp)
 };
