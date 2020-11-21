@@ -12,6 +12,6 @@ const isValidJson = (str: string): Boolean => {
   }
 };
 
-export const verifyInput = (inp: string): Boolean => {
-  return isValidJson(inp)
-};
+const verifyInput = (inp: string): Boolean => isValidJson(inp);
+
+export default verifyInput;
