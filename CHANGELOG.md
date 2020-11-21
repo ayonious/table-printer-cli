@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/ayonious/table-printer-cli/compare/v1.1.1...v1.1.2) (2020-11-21)
+
+
+### Bug Fixes
+
+* console.error for input error message ([#221](https://github.com/ayonious/table-printer-cli/issues/221)) ([18af899](https://github.com/ayonious/table-printer-cli/commit/18af899e92f5226159b891de7bdae113e92486fc))
+
 ## [1.1.1](https://github.com/ayonious/table-printer-cli/compare/v1.1.0...v1.1.1) (2020-11-19)
 
 
