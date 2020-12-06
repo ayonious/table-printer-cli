@@ -1,3 +1,10 @@
+## [1.1.5](https://github.com/ayonious/table-printer-cli/compare/v1.1.4...v1.1.5) (2020-12-06)
+
+
+### Bug Fixes
+
+* **deps:** update dependency console-table-printer to ^2.7.2 ([7e9a11c](https://github.com/ayonious/table-printer-cli/commit/7e9a11cf348e8d43a850a915f6d77258b76b1cde))
+
 ## [1.1.4](https://github.com/ayonious/table-printer-cli/compare/v1.1.3...v1.1.4) (2020-12-05)
 
 
