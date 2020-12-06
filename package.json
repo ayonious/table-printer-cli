@@ -36,7 +36,7 @@
   "homepage": "https://github.com/ayonious/table-printer-cli#readme",
   "dependencies": {
     "commander": "^6.2.0",
-    "console-table-printer": "^2.7.2"
+    "console-table-printer": "^2.7.3"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^5.0.1",
