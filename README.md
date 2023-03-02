@@ -32,8 +32,16 @@ Printing Simple Table on your bash terminal. Its useful when you want to present
 
 ## Installation
 
+### Using npm
+
 ```bash
-npm install table-printer-cli -g
+npm install --global table-printer-cli
+```
+
+### Using yarn
+
+```bash
+yarn global add table-printer-cli
 ```
 
 ## Basic Example
